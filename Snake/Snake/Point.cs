@@ -17,6 +17,25 @@ namespace Snake
 
         }
 
+        public Point(Point p)
+        {
+            x = p.x;
+            y = p.y;
+            sym = p.sym;
+        }
+
+        public void Move(int offset, Directrion direction)
+        {
+            if (direction == Directrion.RIGHT)
+                x += offset;
+            else if (direction == Directrion.LEFT)
+                x -= offset;
+            else if (direction == Directrion.UP)
+                y -= offset;
+            else if (direction == Directrion.DOWN)
+                y += offset;
+        }
+
         public Point (int x, int y, char sym)
         {
             this.x = x;
