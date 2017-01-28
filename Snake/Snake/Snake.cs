@@ -41,5 +41,19 @@ namespace Snake
             nextPoint.Move(1, direction);
             return nextPoint;
         }
+
+        public void WorkKeys(ConsoleKey key)
+        {
+            if (key == ConsoleKey.LeftArrow)
+                direction = Directrion.LEFT;
+            else if (key == ConsoleKey.RightArrow)
+                direction = Directrion.RIGHT;
+            else if (key == ConsoleKey.DownArrow)
+                direction = Directrion.DOWN;
+            else if (key == ConsoleKey.UpArrow)
+                direction = Directrion.UP;
+        }
+
+
     }
 }
