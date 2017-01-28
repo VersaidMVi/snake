@@ -4,3 +4,6 @@ C:\CoddingMVi\Git\snake\Snake\Snake\bin\Debug\Snake.pdb
 C:\CoddingMVi\Git\snake\Snake\Snake\obj\Debug\Snake.csprojResolveAssemblyReference.cache
 C:\CoddingMVi\Git\snake\Snake\Snake\obj\Debug\Snake.exe
 C:\CoddingMVi\Git\snake\Snake\Snake\obj\Debug\Snake.pdb
+D:\CodeMVi\Git\Snake\Snake\bin\Debug\Snake.exe.config
+D:\CodeMVi\Git\Snake\Snake\obj\Debug\Snake.exe
+D:\CodeMVi\Git\Snake\Snake\obj\Debug\Snake.pdb
